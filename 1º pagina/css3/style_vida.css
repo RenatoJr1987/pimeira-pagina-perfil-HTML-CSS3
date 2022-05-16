@@ -1,0 +1,78 @@
+/*Cabeça*/
+header{
+    background: #5933c9  
+}
+/*Corpo*/
+body{
+	background: rgb(22, 22, 22);
+}
+/*Rodpé*/
+footer{
+
+    text-align: right;
+    background:#5933c9 ;
+    color: yellow;
+    font-size: 20px;
+   }
+
+.caixa{
+	position: relative;
+	width: 900px;
+	margin: auto;
+    }
+    
+	.texto{
+		font-size: 20px;
+		text-align:left;
+		color: white;
+	}
+
+   .vida{
+       font-size: 100px;
+   } 
+
+.mundo{
+	border: 2px solid black;
+    border-radius: 50px;
+    width: 300px;
+	position: relative;
+}
+
+
+nav {
+	position: absolute;
+	top: 70px;
+	right: 0;
+	color: yellow;
+}
+
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width:  30%;
+	vertical-align: top;
+	margin: 0 1,5%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border-color: #111111;
+	border-width: 2px;
+	border-style:double;
+	border-radius: 10px;
+ }
+
+ .produtos li:hover{
+			color:blue;
+			font-weight: bold;
+			font-size: 35px;
+			
+		}
+.produtos li:active{
+			border-color:rgb(10, 6, 211);
+}

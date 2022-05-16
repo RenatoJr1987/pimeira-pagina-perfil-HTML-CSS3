@@ -1,0 +1,35 @@
+<header>
+            <h3>Contado de rede sociais </h3>
+        </header>
+        <ul class="contacts_list">
+            <li>
+                <a href="https://www.facebook.com/renatojr87 "target="_Banck">Faceebook</a>
+            </li>
+            <li>
+                     <a href="https://www.instagram.com "target="_Banck">Instagran</a>
+            </li>
+
+            <li>
+                     <a href="https://www.linkedin.com/in/renatodsjr/target="target_Banck">Linkedin</a>
+            </li>
+
+            <li>
+                        <a href="https://github.com/RenatoJr1987"target="_Banck">Github</a>
+           </li>
+
+            <li>
+                     <a href="malito:renato.ds.junior@gmail.com" target="_Banck">Email</a>
+            </li>
+
+        </ul>
+
+
+
+csss3
+.contacts_list{
+     padding-left: 20x;
+
+}
+.contacts_list li a{
+    color: blue
+}
